@@ -593,10 +593,14 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "deepeval" },
+    { name = "python-dotenv" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "deepeval", specifier = ">=4.0.4" }]
+requires-dist = [
+    { name = "deepeval", specifier = ">=4.0.4" },
+    { name = "python-dotenv", specifier = ">=1.2.2" },
+]
 
 [[package]]
 name = "markdown-it-py"
